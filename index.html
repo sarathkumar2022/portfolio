@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="main">
+    <nav>
+        <ul>
+            <li><a href="#home"  onclick="home()">home</a></li>
+            <li><a href="#biodata" onclick="biodata()">biodata</a></li>
+            <li><a href="#skill" onclick="skill()">skill</a></li>
+            <li><a href="#project" onclick="project()">project </a></li>
+            <li><a href="#contact" onclick="contact()">contact</a></li>
+        </ul>
+    </nav>
+    <div class="home" id="homepage">
+        <span class="red">I am </span> <span> sarath kumar</span>
+        <h1>full stack developer</h1>
+        <span class="bottom">fresher</span>
+
+        <p>Motivated and enthusiastic Full Stack Developer with a strong foundation in web development technologies. 
+            Proficient in front-end and back-end development, including HTML, CSS, JavaScript, React, and Node.js.  
+            Recently completed a degree in Computer Science and several hands-on projects that showcase a solid understanding of full stack development principles.
+             Eager to contribute to a dynamic team and grow in a challenging development environment..</p>
+        </div>
+        <div class="biodata" id="biodata" onclick="biodata()">  
+           <h2>Name: sarath kumar pandiyan</h2>
+           <h3>contact information:</h3>
+           
+            <ul>
+                <li>email: sarathkumar9362@gmail.com</li>
+                <li>mobile:9843719324</li>
+                <li>linked in:</li>
+                <li>nakuri id:</li>
+                <li>portfolio:</li>
+            </ul>
+           <h2>Professional Summary:</h2>
+           <p>
+            Highly motivated and detail-oriented recent Computer Science graduate with a strong foundation in full stack web development. 
+            Skilled in HTML, CSS, JavaScript, java, and Node.js. Demonstrates a passion for coding and learning new technologies through various personal projects and coursework. 
+            Eager to apply technical skills and contribute to innovative projects in a dynamic development team..</p>
+            <h2>Education:</h2>
+            <ul>
+                <li>Bachelor of Science in Computer Science,2023</li>
+                <li>sri venkateshwara college of engineering and tech</li>
+                <li>anna university</li>
+                
+            </ul>
+            <h2>certificate</h2>
+            <ul>
+                <li>Certified  Java Full Stack Developer,Besanth technology, 2024</li>
+                <li>Location:T.Nagar</li>
+
+            </ul>
+        </div>
+        <div class="skill" id="skill">
+            <h1>List of skills below here</h1>
+            <label for=""> <img src="icons8-microsoft-powerpoint-48.png" alt=""><p>powerpoint</p></label>
+            <label for=""><img src="icons8-java-logo-480.png" alt=""><p>java</p></label>
+            <label for=""><img src="icons8-mysql-logo-240.png" alt=""><p>mysql</p></label>  
+            <label for=""><img src="javascript-736400_1920.png" alt=""><p>java <script></script></p></label>
+            <br><br>
+            <label for=""><img src="logo-2582747.png" alt=""><p>CSS</p></label>
+            <label for=""><img src="icons8-microsoft-excel-2019-240.png" alt=""><p>excel</p></label>
+            <label for=""><img src="icons8-microsoft-powerpoint-48.png" alt=""><p>powerpoint</p></label>
+        </div>
+
+        <div class="project" id="project">
+            <h2>base on my skills </h2>
+            <ul>
+                <li><a href="">project 1</a></li>
+                <div class="project1">
+                
+                    <h3>1.WITHDRAW OF MONEY USING FACE AND IRIS DETECTION</h3>
+                    <p>I.&nbsp;&nbsp;Increase the security level of money withdraw in atm machine.<br>
+                     II. Using face mark and iris matching verify the person and access to withdraw.<br>
+                     III. High secure level. <br></p>
+            </div>
+            <div></div>
+                <li><a href="">project 2</a></li>
+                <div id="project2">
+                    <h3>2.PERSONAL PORTFOLIO WEBSITE</h3>
+                    <p>
+                      I. Created a personal portfolio website showcasing projects, skills, and contact
+                information using HTML, CSS  <br>
+                II.Implemented smooth scrolling and animations to enhance user engagement. <br>
+                III.Ensured cross-browser compatibility and responsiveness for optimal viewing
+                across devices.
+                    <br></p>
+                  </div>
+                <li><a href="">project 3</a></li>
+                <div id="project3">
+                    <h3>supermarket billing system</h3>
+                    <p>
+                      I.billing system with login and register page using html and css and jdbc.<br>
+                      II.using jdbc user registration details has been store in my sql  <br>
+           III.After stored  the user input in mysql using jsp and servlet file we verify and login the user. <br>
+              IV.after login billing page will open and create simple by filling some information about user ,product and price.<br>
+              V.both front end and back end has been used for this project with database.
+                    <br></p>
+                  </div>
+            </ul>
+        </div>
+        <div class="contact" id="contact">
+            <input type="email" placeholder="enter your mail id">
+           <textarea class="" name="" id=""></textarea>
+            <button class="send">send</button>
+            <a class="resume" href="https://drive.google.com/file/d/1QB-1ZzYyce4lJuCRfmEp0y_2DvP57qI1/view?usp=drive_link">click to download my resume</a>
+            <span><a href="https://wa.link/sroe1z"><img src="whatsapp.png" alt=""></a></span>
+            <span><img src="naukri.com.png" alt=""></span>
+            <span><a href="https://www.linkedin.com/in/sarath-kumar-0a8491185?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG5DheWk2QIi%2FKy6mWR3X3A%3D%3D"><img src="linkedin.png" alt=""></a></span>
+            <h3 class="about">about</h3>
+            <p id="para">i looking for my carrear startup , my goal is to be an respectfull kindly person in working place.
+                <br>I always do my best and smartworking .I have intrested in backend and databse development.
+                <br>i love my life and i love my family.<br >
+            </p>
+        </div>
+        
+    </div>
+    <script>
+       function home(){
+        document.getElementById("homepage").style.display="block";
+            document.getElementById("biodata").style.display="none";
+            document.getElementById("skill").style.display="none";
+            document.getElementById("project").style.display="none";
+            document.getElementById("contact").style.display="none";
+       }
+        function biodata(){
+            document.getElementById("homepage").style.display="none";
+            document.getElementById("biodata").style.display="block";
+            document.getElementById("skill").style.display="none";
+            document.getElementById("project").style.display="none";
+            document.getElementById("contact").style.display="none";
+        }
+        function skill(){
+            document.getElementById("homepage").style.display="none";
+            document.getElementById("biodata").style.display="none";
+            document.getElementById("skill").style.display="block";
+            document.getElementById("project").style.display="none";
+            document.getElementById("contact").style.display="none";
+        }
+        function project(){
+            document.getElementById("homepage").style.display="none";
+            document.getElementById("biodata").style.display="none";
+            document.getElementById("skill").style.display="none";
+            document.getElementById("project").style.display="block";
+            document.getElementById("contact").style.display="none";
+        
+        }
+        function contact(){
+            document.getElementById("homepage").style.display="none";
+            document.getElementById("biodata").style.display="none";
+            document.getElementById("skill").style.display="none";
+            document.getElementById("project").style.display="none";
+            document.getElementById("contact").style.display="block";
+        
+        }
+    </script>
+</body>
+</html>
