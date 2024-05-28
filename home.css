@@ -213,7 +213,7 @@ textarea:focus{
 .about{
     
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 30%;
     text-transform: capitalize;
     text-align: center;
@@ -222,23 +222,57 @@ textarea:focus{
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 84%;
+    top: 70%;
     left: 30%;
     padding: 10px;
     
 }
 .resume{
  position: absolute;
- left: 42%;
- top: 70%;   
+ left: 35%;
+ top: 55%;   
  text-decoration: none;
+ border: 1px solid black;
+ padding: 10px;
+ border-radius: 30px;
+ background-color: white;
+
 
 }
+
 .resume:hover{
     text-shadow: 3px 4px 5px white;
+    box-shadow: 5px 10px 5px white;
 }
 span a img:hover{
     filter: drop-shadow(10px 15px 15px white);
     
 }
 
+@media only screen and (max-width: 460px){
+  *{
+    padding: 0;
+    margin: 0;
+    color: green;
+  }
+  body{
+    width: 412px;
+    height: 700px;
+  }
+  nav ul li{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    left: 5px;
+    top: 10px;
+  }
+  
+.homepah1,span,.red,.bottom{
+    margin: 0;
+    padding: 0;
+    left: -100px;
+}
+p{
+    font-size: 5px;
+}
+}
